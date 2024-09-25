@@ -6,7 +6,7 @@ public class TwoDArrays {
         int maxProfit = 0;
 
         for (int i = 0; i < price.length; i++) {
-            // Update the buy price if the current price is lower
+         
             if (price[i] < buyPrice) {
                 buyPrice = price[i];
             } else {
